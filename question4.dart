@@ -25,7 +25,6 @@ abstract class Vehicle {
   
   // Add a method to calculate vehicle age (current year - vehicle year)
   int calculateAge() {
-    // TODO: Calculate and return vehicle age
     return DateTime.now().year - year;
   }
 }
